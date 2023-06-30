@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessCenterFrameworkControllers", "FitnessCenter_EF.API\FitnessCenterFrameworkControllers.csproj", "{B11A07A7-4F2E-4D18-8ADC-EFEF68B9E7C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessCenterFrameworkStories", "FitnessCenter_EF.BLL\FitnessCenterFrameworkStories.csproj", "{57354A40-D97D-43F6-B378-FAB7C45C3484}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessCenterFrameworkDomains", "FitnessCenter_EF.DAL\FitnessCenterFrameworkDomains.csproj", "{EA093944-C2CA-45D3-A331-298C9C23D723}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessCenterFrameworkPresentation", "FitnessCenter_EF.WPF\FitnessCenterFrameworkPresentation.csproj", "{33A25EA7-ED5A-4717-B2D2-B62C9840AE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B11A07A7-4F2E-4D18-8ADC-EFEF68B9E7C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11A07A7-4F2E-4D18-8ADC-EFEF68B9E7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11A07A7-4F2E-4D18-8ADC-EFEF68B9E7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11A07A7-4F2E-4D18-8ADC-EFEF68B9E7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57354A40-D97D-43F6-B378-FAB7C45C3484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57354A40-D97D-43F6-B378-FAB7C45C3484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57354A40-D97D-43F6-B378-FAB7C45C3484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57354A40-D97D-43F6-B378-FAB7C45C3484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA093944-C2CA-45D3-A331-298C9C23D723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA093944-C2CA-45D3-A331-298C9C23D723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA093944-C2CA-45D3-A331-298C9C23D723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA093944-C2CA-45D3-A331-298C9C23D723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A25EA7-ED5A-4717-B2D2-B62C9840AE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A25EA7-ED5A-4717-B2D2-B62C9840AE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A25EA7-ED5A-4717-B2D2-B62C9840AE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A25EA7-ED5A-4717-B2D2-B62C9840AE41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9049126-6747-4F72-86F0-7132161CEDFE}
+	EndGlobalSection
+EndGlobal

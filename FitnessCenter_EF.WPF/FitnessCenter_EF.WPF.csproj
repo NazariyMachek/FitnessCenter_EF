@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FitnessCenter_EF.API\FitnessCenter_EF.API.csproj" />
+    <ProjectReference Include="..\FitnessCenter_EF.BLL\FitnessCenter_EF.BLL.csproj" />
+    <ProjectReference Include="..\FitnessCenter_EF.DAL\FitnessCenter_EF.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
